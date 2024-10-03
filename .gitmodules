@@ -1,0 +1,6 @@
+[submodule "First-Year/Clinic-System"]
+	path = Clinic-System
+	url = https://github.com/AnonMiraj/Clinic-System
+[submodule "First-Year/Snake-Game-CPP"]
+	path = First-Year/Snake-Game-CPP
+	url = https://github.com/mohyware/Snake-Game-CPP
