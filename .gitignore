@@ -1,0 +1,15 @@
+# Ignore executables
+*.exe
+*.out
+*.o
+
+# specific to CodeBlocks IDE
+*.layout
+*.depend
+
+# generated directories
+bin/
+obj/
+
+# IDE and editor files
+.vscode/
