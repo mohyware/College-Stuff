@@ -31,3 +31,4 @@ You need a Windows machine to run this game since it uses Windows-specific libra
     ```bash
     ./game.exe
     ```
+5. Enjoy
