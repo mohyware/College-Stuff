@@ -1,9 +1,0 @@
-# depslib dependency file v1.0
-1670579351 source:c:\projects\c++\games\main.cpp
-	<iostream>
-	<stdlib.h>
-	<unistd.h>
-	<time.h>
-	<iomanip>
-	<conio.h>
-
