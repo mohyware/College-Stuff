@@ -19,3 +19,7 @@ The program includes input validation to ensure only numeric input is accepted f
 
 ### Timed Operations:
 The program incorporates a timed wait functionality, which clears the screen and counts down before displaying the next menu or operation result.
+
+## Data Structures
+- **Stack**: Used to manage individual product entries.
+- **Queue (Linked List)**: Stores stacks of products in a queue-like structure, allowing products to be added to the end of the list and removed from the front.
