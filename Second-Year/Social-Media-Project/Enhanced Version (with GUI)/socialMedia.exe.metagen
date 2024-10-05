@@ -1,0 +1,121 @@
+  socialMedia.createUser.resources - Embedded, ContainedInManifestFile, 
+  socialMedia.edit.resources - Embedded, ContainedInManifestFile, 
+  socialMedia.hashtag.resources - Embedded, ContainedInManifestFile, 
+  socialMedia.MyForm.resources - Embedded, ContainedInManifestFile, 
+  socialMedia.signUp.resources - Embedded, ContainedInManifestFile, 
+  socialMedia.userPage.resources - Embedded, ContainedInManifestFile, 
+  socialMedia.viewProfile.resources - Embedded, ContainedInManifestFile, 
+ImageRuntimeVersion: v4.0.30319
+Assembly socialMedia, Version=0.0.*, Culture=Invariant Language (Invariant Country): 
+	hash=SHA1, flags=PublicKey
+Assembly mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a: 
+	hash=None, flags=None
+Assembly System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Class socialMedia.createUser: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.Windows.Forms.TextBox passInfo : Public
+    data* dt : Public
+    System.Windows.Forms.TextBox usernameInfo : Public
+    System.Windows.Forms.TextBox emailInfo : Public
+    System.Windows.Forms.TextBox genderInfo : Public
+    System.Windows.Forms.TextBox birthdayInfo : Public
+    System.Windows.Forms.TextBox phoneNumberInfo : Public
+    System.Windows.Forms.Button button1 : Public
+  Methods:
+    parseCommaDelimitedstring(vector<std::basic_string<char\,std::char_traits<char>\,std::allocator<char> >\,std::allocator<std::basic_string<char\,std::char_traits<char>\,std::allocator<char> > > >*, basic_string<char\,std::char_traits<char>\,std::allocator<char> >*): PrivateScope, Public, HideBySig
+    get_reference_User(): PrivateScope, Public, HideBySig
+Class socialMedia.edit: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.Windows.Forms.TextBox passInfo : Public
+    System.Windows.Forms.Button button1 : Public
+    System.Windows.Forms.TextBox phoneNumberInfo : Public
+    System.Windows.Forms.TextBox birthdayInfo : Public
+    System.Windows.Forms.TextBox genderInfo : Public
+    System.Windows.Forms.TextBox emailInfo : Public
+    System.Windows.Forms.TextBox usernameInfo : Public
+  Methods:
+    IsNullOrWhiteSpace(basic_string<char\,std::char_traits<char>\,std::allocator<char> >* IsImplicitlyDereferenced): PrivateScope, Public, HideBySig
+Class socialMedia.hashtag: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.Windows.Forms.Label hash1 : Public
+    System.Windows.Forms.Label hash2 : Public
+    System.Windows.Forms.Label hash3 : Public
+    System.Windows.Forms.Label hash4 : Public
+    System.Windows.Forms.Label hash8 : Public
+    System.Windows.Forms.Label hash7 : Public
+    System.Windows.Forms.Label hash6 : Public
+    System.Windows.Forms.Label hash5 : Public
+    System.Windows.Forms.Label hash10 : Public
+    System.Windows.Forms.Label hash9 : Public
+Class socialMedia.userPage: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.Windows.Forms.Label label1 : Public
+    System.Windows.Forms.TextBox likeDesc : Public
+    System.Windows.Forms.TextBox alldesc : Public
+    System.Windows.Forms.TextBox allhashtag : Public
+    System.Windows.Forms.TextBox textBox4 : Public
+    System.Windows.Forms.Label label6 : Public
+    System.Windows.Forms.Label email : Public
+    System.Windows.Forms.Label birh : Public
+    System.Windows.Forms.Label phone : Public
+    System.Windows.Forms.Label date : Public
+    System.Windows.Forms.Label gender : Public
+    System.Windows.Forms.Label genderi : Public
+    System.Windows.Forms.Label datei : Public
+    System.Windows.Forms.Label phonei : Public
+    System.Windows.Forms.Label birthi : Public
+    System.Windows.Forms.Label password : Public
+Class socialMedia.MyForm: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.Windows.Forms.TextBox textBox2 : Public
+    System.Windows.Forms.TextBox textBox3 : Public
+Class socialMedia.viewProfile: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.Windows.Forms.Label datei : Public
+    System.Windows.Forms.Label phonei : Public
+    System.Windows.Forms.Label birthi : Public
+    System.Windows.Forms.Label genderi : Public
+    System.Windows.Forms.Label date : Public
+    System.Windows.Forms.Label phone : Public
+    System.Windows.Forms.Label birh : Public
+    System.Windows.Forms.Label gender : Public
+    System.Windows.Forms.Label email : Public
+    System.Windows.Forms.Label followers : Public
+    System.Windows.Forms.Label username : Public
+    System.Windows.Forms.Label label2 : Public
+Class socialMedia.DataSentHandler: AutoLayout, AnsiClass, Class, Public, Sealed, BeforeFieldInit
+  :System.MulticastDelegate
+    Void .ctor(System.Object, IntPtr): PrivateScope, Public, SpecialName, RTSpecialName
+  Methods:
+    Invoke(basic_string<char\,std::char_traits<char>\,std::allocator<char> >*): PrivateScope, Public, Final, Virtual, VtableLayoutMask
+    BeginInvoke(basic_string<char\,std::char_traits<char>\,std::allocator<char> >*, AsyncCallback, Object): PrivateScope, Public, Final, Virtual, VtableLayoutMask
+    EndInvoke(IAsyncResult): PrivateScope, Public, Final, Virtual, VtableLayoutMask
+Class socialMedia.signUp: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    Browse* br : Public
+    User* b : Public
+    System.Windows.Forms.TextBox profileusername : Public
+    data* dt : Public
