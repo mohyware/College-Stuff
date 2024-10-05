@@ -6,6 +6,7 @@ This project is a **User Management System** built using **CPP and WinForms**. T
 - [Features](#features)
 - [Data Structures](#data-structures)
 - [Show Case](#show-case)
+- [Acknowledgements](#acknowledgements)
 
 ## Features
 
@@ -39,4 +40,3 @@ The project uses multiple data structures to efficiently handle its core functio
 ## Acknowledgements
 
 **Contributors**: Thanks to [Ammar Yasser](https://github.com/AmarYasser1) and [Mahmoud Wadea](https://github.com) for their valuable contributions.
-  

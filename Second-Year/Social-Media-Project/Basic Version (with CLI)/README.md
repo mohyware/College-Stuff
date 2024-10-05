@@ -5,6 +5,8 @@ This project is a **Command-Line Interface (CLI)** application that allows manag
 ## Table of Contents
 - [Features](#features)
 - [Data Structures](#data-structures)
+- [How It Works](#how-it-works)
+- [Acknowledgements](#acknowledgements)
 
 ## Features
 
