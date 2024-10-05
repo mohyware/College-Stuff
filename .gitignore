@@ -11,5 +11,69 @@
 bin/
 obj/
 
-# IDE and editor files
+# Visual Studio specific
 .vscode/
+.vs/
+*.vcxproj.user
+*.vcxproj.filters
+*.dbmdl
+*.opendb
+*.suo
+*.user
+*.cache
+*.ilk
+*.log
+*.ncb
+*.sdf
+*.unsuccessfulbuild
+*.ipch
+*.aps
+*.pch
+*.vsp
+*.vspx
+*.pidb
+*.mdf
+*.ldf
+*.obj
+*.idb
+*.pdb
+*.tlog
+*.log
+*.lastbuildstate
+*.sln.docstates
+
+# Build Results
+[Bb]in/
+[Dd]ebug*/
+[Dd]ebugPublic/
+[Rr]elease*/
+[Rr]eleases*/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]uild/
+[Dd]ebugPS/
+[Rr]eleasePS/
+debug/
+release/
+lib/
+
+# User-specific folders
+/.vs
+/.vscode
+
+# Folder config file
+Desktop.ini
+
+# VS Code directories
+.vscode/
+
+# NuGet
+*.nupkg
+
+# NuGet Packages
+packages/
+*.snupkg
+*.nuspec
