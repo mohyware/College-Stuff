@@ -39,3 +39,5 @@ This HR Management System provides a basic framework for managing employee infor
 - **Department Management**: Manage department data and assign/remove employees from departments.
 - **Payroll Calculation**: Calculate total and department-specific payroll.
 - **Average Salary Calculation**: Calculate overall and department-specific average salaries.
+
+[Download Report](./docs/report.pdf)

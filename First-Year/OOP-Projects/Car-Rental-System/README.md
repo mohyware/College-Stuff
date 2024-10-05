@@ -26,3 +26,5 @@ The `CarRentalSystem` class is instantiated with the following parameters:
 - **Maximum number of reservations**
 
 The system presents a menu-driven interface where users can select from the available options to perform the operations listed above.
+
+[Download Report](./docs/report.pdf)
