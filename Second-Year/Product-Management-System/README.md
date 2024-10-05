@@ -23,3 +23,7 @@ The program incorporates a timed wait functionality, which clears the screen and
 ## Data Structures
 - **Stack**: Used to manage individual product entries.
 - **Queue (Linked List)**: Stores stacks of products in a queue-like structure, allowing products to be added to the end of the list and removed from the front.
+
+## Acknowledgements
+
+**Contributors**: Thanks to [Mahmoud Wadea](https://github.com) for his valuable contributions.

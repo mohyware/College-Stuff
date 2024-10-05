@@ -33,5 +33,10 @@ The project uses multiple data structures to efficiently handle its core functio
 - **Custom Y-Combinator Function Template**:
   This template enables recursion in lambda functions to make certain operations cleaner.
 
-  ## Show Case
+## Show Case
 [Watch the Show Case](./show-case/show-case.mp4)
+
+## Acknowledgements
+
+**Contributors**: Thanks to [Ammar Yasser](https://github.com/AmarYasser1) and [Mahmoud Wadea](https://github.com) for their valuable contributions.
+  

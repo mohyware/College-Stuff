@@ -42,3 +42,7 @@ The program begins with an interactive main menu that allows users to choose bet
     - **Manage Users**: Interacts with user data to add, modify, or delete users.
     - **Browse Users**: Lists all users and enables scrolling through them.
     - **Statistics**: Displays statistics on user activity.
+
+## Acknowledgements
+
+**Contributors**: Thanks to [Ammar Yasser](https://github.com/AmarYasser1) and [Mahmoud Wadea](https://github.com) for their valuable contributions.
