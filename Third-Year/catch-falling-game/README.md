@@ -10,7 +10,7 @@ This is a simple 2D game built using **ActionScript 3.0** where the player contr
 ---
 ![screenshot3](./showcase/img3.png)
 ---
-![video](https://github.com/user-attachments/assets/e651cfa0-ccba-4325-b6b9-90fc86ccb7e2)
+https://github.com/user-attachments/assets/e651cfa0-ccba-4325-b6b9-90fc86ccb7e2
 ## Features
 - **Basket Control**: The player moves the basket left or right using the keyboard (arrow keys).
 - **Falling Objects**: Different objects fall from the top of the screen, categorized into "good" and "bad" objects.
