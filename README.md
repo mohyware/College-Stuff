@@ -1,6 +1,6 @@
-# College Projects Repository
+# College Stuff
 
-Welcome to my college projects repository! This collection showcases a wide range of projects that I have worked on during my studies. The projects vary significantly in terms of technology, complexity, and presentation.
+Welcome to my college repository! This collection showcases a wide range of projects that I have worked on during my studies. The projects vary significantly in terms of technology, complexity, and presentation.
 
 ## Project Types
 
