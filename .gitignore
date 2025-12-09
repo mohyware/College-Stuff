@@ -10,6 +10,7 @@
 # generated directories
 bin/
 obj/
+.gradle/
 
 # Visual Studio specific
 .vscode/

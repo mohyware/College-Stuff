@@ -1,0 +1,49 @@
+plugins {
+    id 'java'
+    id 'jacoco'
+}
+
+repositories {
+    mavenCentral()
+}
+
+// Cause i hate java com.project stuff
+sourceSets {
+    main {
+        java {
+            srcDirs = ['.', 'qursaan']
+            include '**/Sailing.java'
+        }
+    }
+    test {
+        java {
+            srcDirs = ['test']
+        }
+    }
+}
+
+dependencies {
+    testImplementation 'org.testng:testng:7.10.2'
+}
+
+test {
+    useTestNG()
+    ignoreFailures = true 
+    finalizedBy jacocoTestReport 
+}
+
+jacocoTestReport {
+    dependsOn test 
+    doNotTrackState("JaCoCo reports are generated regardless of state")
+    reports {
+        xml.required = true
+        html.required = true
+        csv.required = false
+    }
+}
+
+afterEvaluate {
+    tasks.jacocoTestReport {
+        sourceSets sourceSets.main
+    }
+}
