@@ -9,4 +9,4 @@
 	url = https://github.com/mohyware/Note-Taker.git
 [submodule "Fourth-Year/Ciphers-deepdive"]
 	path = Fourth-Year/Ciphers-deepdive
-	url = https://github.com/MoX678/Ciphers-deepdive.git
+	url = https://github.com/MoX678/ciphers-visualizer
