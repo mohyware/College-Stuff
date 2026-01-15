@@ -35,7 +35,7 @@ The project uses multiple data structures to efficiently handle its core functio
   This template enables recursion in lambda functions to make certain operations cleaner.
 
 ## Show Case
-[Watch the Show Case](./show-case/show-case.mp4)
+[Watch the Show Case](https://drive.google.com/file/d/1lKYK6B-TPhM2vcdsRiq-gGXA0GG-LljR/view?usp=sharing)
 
 ## Acknowledgements
 
