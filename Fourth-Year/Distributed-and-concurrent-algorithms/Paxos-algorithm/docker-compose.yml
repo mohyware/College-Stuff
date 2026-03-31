@@ -1,0 +1,59 @@
+services:
+  p1:
+    build: .
+    environment:
+      - NODE_ID=1
+      - PORT=10030
+      - PEERS=p1:10030,p2:10031,p3:10032,p4:10033,p5:10034
+    ports:
+      - "10030:10030/udp"
+    networks:
+      - paxos-grid
+
+  p2:
+    build: .
+    environment:
+      - NODE_ID=2
+      - PORT=10031
+      - PEERS=p1:10030,p2:10031,p3:10032,p4:10033,p5:10034
+    ports:
+      - "10031:10031/udp"
+    networks:
+      - paxos-grid
+
+  p3:
+    build: .
+    environment:
+      - NODE_ID=3
+      - PORT=10032
+      - PEERS=p1:10030,p2:10031,p3:10032,p4:10033,p5:10034
+    ports:
+      - "10032:10032/udp"
+    networks:
+      - paxos-grid
+
+  p4:
+    build: .
+    environment:
+      - NODE_ID=4
+      - PORT=10033
+      - PEERS=p1:10030,p2:10031,p3:10032,p4:10033,p5:10034
+    ports:
+      - "10033:10033/udp"
+    networks:
+      - paxos-grid
+
+  p5:
+    build: .
+    environment:
+      - NODE_ID=5
+      - PORT=10034
+      - PEERS=p1:10030,p2:10031,p3:10032,p4:10033,p5:10034
+    ports:
+      - "10034:10034/udp"
+    networks:
+      - paxos-grid
+
+networks:
+  paxos-grid:
+    driver: bridge
